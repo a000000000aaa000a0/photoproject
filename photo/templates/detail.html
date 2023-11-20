@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block title %}Photo Detail{% endblock %}
+
+{% block contents %}
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col offset-2">
+            <h2>{{object.title}}</h2>
+            <p>{{object.comment}}</p>
+            <br>
+            <p>{{object.posted_at}}に投稿</p>
+            <p></p>
+        </div>
+    </div>
+</div>
